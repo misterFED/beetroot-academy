@@ -18,10 +18,10 @@ body {
   text-align: center;
 }
 
-.nav-link {
+.nav_link {
   text-decoration: none;
-  font-weight: normal;
-  padding: 30px;
+  color:  #828282;
+  padding: 0 20px 0 20px;
 }
 
 .name {
