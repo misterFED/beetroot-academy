@@ -8,6 +8,11 @@
   transition: all .3s ease-in;
 }
 
+.back {
+  background-color: #89ec6a;
+  font-size: 20px;
+}
+
 img {
   width: 100%;
 }
