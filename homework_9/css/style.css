@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.back {
+    background-color: #89ec6a;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
 .wrapper {
     width: 100%;
     max-width: 1920px;
