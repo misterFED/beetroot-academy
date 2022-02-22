@@ -14,7 +14,10 @@
 .back {
   background-color: #89ec6a;
   font-size: 30px;
-  margin-top: 10px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid red;
 }
 
 .global-wrapper {
