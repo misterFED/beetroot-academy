@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили для ссылки возврата домой */
+.back {
+  background-color: #89ec6a;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid red;
+}
+
+/* Стиль для всей страницы */
+.wrapper {
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  max-height: 940px;
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+}
+
+/* Heder */
+header {
+  position: fixed;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  max-width: 1812px;
+  width: 100%;
+  margin-left: 40px;
+  padding: 5px;
+}
+
+.header-link {
+  display: flex;
+}
+
+.language {
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  margin-right: 40px;
+  cursor: default;
+}
+
+.navigation-link {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.header-logo {
+  max-width: 245px;
+  max-height: 55px;
+  width: 100%;
+}
+
+/* Стили для фонового изображения */
+.background-image {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* Боковая панель */
+.sidebar {
+  position: sticky;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  top: 132px;
+  height: 500px;
+  min-width: 600px;
+  width: 100%;
+}
+
+.sidebar-title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 90px;
+}
+
+.sidebar-title::first-letter {
+  vertical-align: super;
+  font-size: 20px;
+}
+
+/* Контейнер с основным текстом */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.container-all-text {
+  margin-top: 66px;
+  z-index: 3;
+}
+
+.text-title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 70px;
+}
+
+.text-title::before {
+  content: "";
+  display: block;
+  width: 80px;
+  border-top: 11px solid #000000;
+  margin-bottom: 25px;
+}
+
+.container-text {
+  line-height: 36px;
+  font-size: 26px;
+}
+
+.container-text-2 {
+  margin-bottom: 20px;
+}
+
+.container-text-3 {
+  margin-bottom: 80px;
+}
+
+.text-grey {
+  background: #c9c9c9;
+}
